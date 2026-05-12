@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Services | VM Technology and Financial Services</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preload" href="styles/style.css" as="style" />
+  <link rel="stylesheet" href="styles/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <div class="logo">
+      <img src="img/VMTFS Logo.jpg" alt="Logo" />
+      <h1>VM Technology and Financial Services</h1>
+    </div>
+    <nav>
+      <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li class="services-dropdown">
+  <a href="#">Technology <br> Services</a>
+  <ul class="dropdown-menu">
+    <li>
+      <a href="training.html">Training</a>
+    </li>
+    <li>
+      <a href="development.html">Development</a>
+
+    </li>
+    <li>
+      <a href="digital-marketing.html">Digital Marketing</a>
+
+    </li>
+    
+  </ul>
+</li>
+        <li class="services-dropdown">
+          <a href="financial-services.html">Financial <br> Services</a>
+
+        </li>
+        <li><a href="career.html">Careers</a></li>  
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+<section class="services">
+  <div class="services-content">
+
+    <!-- Enlarged & Centered Main Heading -->
+    <h2 class="main-heading">Our Services</h2>
+
+    <!-- Centered Technology Services -->
+    <h3 class="services-subheading">Technology Services</h3>
+    <div class="button-group">
+      <button onclick="window.location.href='training.html'" class="service-btn"> Training</button>
+      <button onclick="window.location.href='development.html'" class="service-btn"> Development</button>
+      <button onclick="window.location.href='digital-marketing.html'" class="service-btn"> Digital Marketing</button>
+    </div>
+
+    <!-- Centered Financial Services -->
+    <h3 class="services-subheading">Financial Services</h3>
+    <div class="button-group">
+      <button onclick="window.location.href='financial-services.html'" class="service-btn"> Financial Services </button>
+    </div>
+
+  </div>
+</section>
+
+
+
+  <!-- Footer Section -->
+  <footer class="footer">
+  <div class="footer-container">
+
+    <div class="footer-column contact-info">
+      <p >©️ 2024 VM Technology and Financial Services. All Rights Reserved.</p>
+      <p>Contact Us: <a href=" support@vmtechfin.com"> support@vmtechfin.com</a></p>
+      <p>Phone: ‪+91 8660768419/ 7259260117‬</p>
+    </div>
+
+    <div class="footer-column">
+      <h4>Technical</h4>
+      <ul>
+        <li>Training</li>
+        <li>Cloud Computing</li>
+        <li>DevOps</li>
+        <li>Security</li>
+        <li>Software Development</li>
+        <li>Cybersecurity</li>
+      </ul>
+    </div>
+
+    <div class="footer-column">
+      <h4>Financial</h4>
+      <ul>
+        <li>Stock Broking</li>
+        <li>Algo Trading</li>
+        <li>Mutual Funds</li>
+        <li>Insurance</li>
+        <li>Tax Planning</li>
+        <li>Financial Planning</li>
+      </ul>
+    </div>
+
+    <div class="footer-column">
+      <h4 style=" color:#ec5e0b">Follow Us</h4>
+      <div class="social-icons">
+  <a href="https://www.instagram.com/vmtf.s?igsh=MWJlaHhhcXpsb3g5Ng==" target="_blank" class="icon instagram"><i class="fab fa-instagram"></i></a>
+  <a href="https://www.facebook.com/VMTFS" target="_blank" class="icon facebook"><i class="fab fa-facebook-f"></i></a>
+  <a href="https://x.com/vmtfs" target="_blank" class="icon twitter"><i class="fab fa-x-twitter"></i></a>
+  <a href="www.youtube.com/@VMTFS" target="_blank" class="icon youtube"><i class="fab fa-youtube"></i></a>
+  <a href="https://linkedin.com/company/vmtfs" target="_blank" class="icon linkedin"><i class="fab fa-linkedin-in"></i></a>
+</div>
+    </div>
+
+  </div>
+</footer>
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/683d3e0958ead6190c5cbb21/1isnjklgf';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+
+<script src="scripts/script.js"></script>
+</body>
+</html>
